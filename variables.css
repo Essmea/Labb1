@@ -1,0 +1,7 @@
+:root {
+    --base-color:linear-gradient(to right, rgb(27, 32, 48), rgb(42, 68, 85));
+    --section-color: rgb(255, 255, 255);
+    --text: rgb(230, 230, 230) ;
+    --dark-text: rgb(12, 12, 34); 
+    --base-color-media: rgb(27, 32, 48);
+}

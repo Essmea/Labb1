@@ -1,0 +1,33 @@
+header { 
+    display: flex;
+    height: 200px;
+}
+
+.name {
+    width: 200px;
+    color: var(--text);
+    font-weight: 700;
+}
+
+p {
+    margin:0%
+}
+h1 {
+    margin: 0%;
+    font-size: 3rem;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 10px;
+    width: 400px;
+    height: 95px;
+    
+}
+
+.fab{
+    color: var(--section-color);
+    font-size: 50px;
+}

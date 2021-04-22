@@ -1,0 +1,54 @@
+@import url(variables.css);
+@import url(header.css);
+@import url(portfolio.css);
+@import url(about.css);
+
+body {
+    background: var(--base-color);
+    font-family: 'Assistant', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.wrap-left {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+.wrap-right {
+    padding-top: 272px;
+}
+
+ @media screen and (max-width:600px) {
+     body {
+         background: var(--base-color-media);
+     }
+     main {
+         display:flex;
+         justify-content: center;
+         flex-direction: column;
+     }
+     .wrap-left {
+         padding-left:0%;
+     }
+     .about, .about-header {
+         color:var(--text);
+         background:none;
+         box-shadow: none;
+         width: 350px;
+     }
+     .wrap-right {
+         padding-top: 5px;
+     }
+
+     .fab {
+         padding:5px;
+         font-size:40px;
+     }
+     
+ }
